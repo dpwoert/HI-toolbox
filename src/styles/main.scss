@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body{
+	width: 100%;
+	height: 100%;
+	/*overflow: hidden;*/
+	/*background: black;*/
+
+
+}
+
+.left-pane{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+
+	display: none;
+
+	@media screen and (max-width: 800px) {
+		display: block;
+	}
+}
+
+.right-pane{
+	position: absolute;
+	left: 50%;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	overflow: scroll;
+	padding: 1em;
+
+	background: #131417;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: 550px auto;
+
+	min-height: 100vh;
+
+	@media screen and (max-width: 800px) {
+		position: relative;
+		left: 0;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+	.right-pane{
+		background-image: none;
+	}
+}
+
+
+@import "../components/filter-viz.css";
+
+@import "../views/home/home.css";
+@import "../views/about/about.css";
+@import "../views/tool-detail/tool-detail.css";
+@import "../views/list-view/list-view.css";
+@import "../views/intro/intro.css";
+@import "../views/literature/literature.css";

@@ -1,0 +1,33 @@
+*, h1, h2, h3, h4, h5, h6{
+  font-family: 'Helvetica Neue', Helvetica, Arial,sans-serif
+}
+
+.link-home{
+	position: absolute;
+	left: 10px;
+	top: 16px;
+	height: 20px;
+	width: 20px;
+	background: url('../images/home.svg');
+	background-size: contain;
+	text-decoration: none;
+	display: block;
+}
+
+.tool-icon{
+	height: 50px;
+	width: auto;
+}
+
+.tool-detail{
+
+	.chart{
+		width: 100%;
+		height: auto;
+	}
+
+	ol{
+		color: #7f7f7f;
+	}
+
+}

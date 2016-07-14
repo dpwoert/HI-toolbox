@@ -1,0 +1,10 @@
+.literature{
+
+	.content{
+		text-align: left;
+	}
+
+	li{
+		margin-top: 1em;
+	}
+}
