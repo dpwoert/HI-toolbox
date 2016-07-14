@@ -1,0 +1,1 @@
+{"version":3,"sources":["views/literature/literature.css"],"names":[],"mappings":"AAEC,qBACC,eAAiB,CACjB,AAED,eACC,cAAgB,CAChB","file":"views/literature/literature.css","sourcesContent":[".literature{\n\n\t.content{\n\t\ttext-align: left;\n\t}\n\n\tli{\n\t\tmargin-top: 1em;\n\t}\n}\n"],"sourceRoot":"/source/"}
